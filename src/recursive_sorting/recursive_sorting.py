@@ -7,6 +7,22 @@ def merge( arrA, arrB ):
     return merged_arr
 
 
+#                [1, 5, 8, 4, 2, 9, 6, 0, 3, 7]
+
+#                [0, 1, 2, 3, 4, 5, 6, 7, 8, 9]
+
+#                  Split into smaller lists
+#                [1, 5, 8, 4, 2, 9, 6, 0, 3, 7]
+
+#                [1, 5, 8, 4, 2] [9, 6, 0, 3, 7]
+
+#                [1, 5, 8,] [4, 2] [9, 6, 0] [3, 7]
+
+#                [1] [5] [8] [4] [2] [9] [6] [0] [3] [7]
+#
+#
+
+
 # TO-DO: implement the Merge Sort function below USING RECURSION
 def merge_sort( arr ):
     # TO-DO
